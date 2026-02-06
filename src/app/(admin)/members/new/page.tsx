@@ -29,6 +29,9 @@ export default function NewMemberPage() {
       notes: data.notes || null,
       is_active: data.is_active,
       photo_url: null,
+      user_id: null,
+      approval_status: 'approved',
+      receive_mailings: true,
     })
 
     setLoading(false)
